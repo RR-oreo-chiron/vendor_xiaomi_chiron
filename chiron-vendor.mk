@@ -73,8 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/xiaomi/chiron/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/xiaomi/chiron/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
-    vendor/xiaomi/chiron/proprietary/framework/rcs_service_aidl.jar:system/framework/rcs_service_aidl.jar \
-    vendor/xiaomi/chiron/proprietary/framework/rcs_service_api.jar:system/framework/rcs_service_api.jar \
     vendor/xiaomi/chiron/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/xiaomi/chiron/proprietary/lib/com.qualcomm.qti.dpm.api@1.0.so:system/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/xiaomi/chiron/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
@@ -230,7 +228,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
     vendor/xiaomi/chiron/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
     vendor/xiaomi/chiron/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
-    vendor/xiaomi/chiron/proprietary/vendor/bin/imsrcsd:system/vendor/bin/imsrcsd \
     vendor/xiaomi/chiron/proprietary/vendor/bin/ipacm-diag:system/vendor/bin/ipacm-diag \
     vendor/xiaomi/chiron/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/xiaomi/chiron/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
@@ -992,8 +989,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/hw/activity_recognition.msm8998.so:system/vendor/lib64/hw/activity_recognition.msm8998.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:system/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib64/hw/fingerprint.fpc.so:system/vendor/lib64/hw/fingerprint.fpc.msm8998.so \
-    vendor/xiaomi/chiron/proprietary/vendor/lib64/hw/fingerprint.goodix.so:system/vendor/lib64/hw/fingerprint.goodix.msm8998.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib64/hw/fingerprint.fpc.so:system/vendor/lib64/hw/fingerprint.fpc.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib64/hw/fingerprint.goodix.so:system/vendor/lib64/hw/fingerprint.goodix.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/hw/gatekeeper.msm8998.so:system/vendor/lib64/hw/gatekeeper.msm8998.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/hw/keystore.msm8998.so:system/vendor/lib64/hw/keystore.msm8998.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/hw/sound_trigger.primary.msm8998.so:system/vendor/lib64/hw/sound_trigger.primary.msm8998.so \
